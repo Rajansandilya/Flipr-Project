@@ -1,0 +1,21 @@
+{
+  "name": "backendflipr",
+  "version": "1.0.0",
+  "description": "Backend assignment for flipr.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "author": "Rajan Sandilya",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "mongodb": "^3.6.9",
+    "mongoose": "^5.12.14",
+    "node-fetch": "^2.6.1",
+    "nodemon": "^2.0.7"
+  }
+}
